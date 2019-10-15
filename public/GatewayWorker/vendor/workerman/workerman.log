@@ -1,0 +1,54 @@
+2019-09-21 22:26:51 pid:9206 Workerman[start.php] start in DEBUG mode
+2019-09-21 22:27:38 pid:9206 Workerman[start.php] stopping ...
+2019-09-21 22:27:38 pid:9206 Workerman[start.php] has been stopped
+2019-09-21 22:28:14 pid:9220 Workerman[start.php] start in DEBUG mode
+2019-09-21 22:40:23 pid:9220 Workerman[start.php] stopping ...
+2019-09-21 22:40:23 pid:9220 Workerman[start.php] has been stopped
+2019-09-21 22:54:14 pid:9403 Workerman[start.php] start in DEBUG mode
+2019-09-21 23:08:06 pid:9403 Workerman[start.php] stopping ...
+2019-09-21 23:08:06 pid:9403 Workerman[start.php] has been stopped
+2019-09-21 23:10:08 pid:9512 Workerman[start.php] start in DEBUG mode
+2019-09-21 23:10:20 pid:9516 Worker[9516] process terminated
+2019-09-21 23:10:20 pid:9512 worker[testGateway:9516] exit with status 64000
+2019-09-21 23:10:28 pid:9515 Worker[9515] process terminated
+2019-09-21 23:10:28 pid:9512 worker[testGateway:9515] exit with status 64000
+2019-09-21 23:12:51 pid:9512 Workerman[start.php] stopping ...
+2019-09-21 23:12:51 pid:9512 Workerman[start.php] has been stopped
+2019-09-21 23:13:00 pid:9533 Workerman[start.php] start in DEBUG mode
+2019-09-21 23:13:08 pid:9537 Worker[9537] process terminated with ERROR: E_RECOVERABLE_ERROR "Object of class Workerman\Connection\TcpConnection could not be converted to string in /htdoc/thinkphp_5.0.5_full/public/GatewayWorker/vendor/workerman/gateway-worker/src/Lib/Context.php on line 131"
+2019-09-21 23:13:08 pid:9533 worker[testGateway:9537] exit with status 65280
+2019-09-21 23:15:28 pid:9533 Workerman[start.php] stopping ...
+2019-09-21 23:15:28 pid:9533 Workerman[start.php] has been stopped
+2019-09-21 23:15:30 pid:9552 Workerman[start.php] start in DEBUG mode
+2019-09-21 23:15:43 pid:9555 Worker[9555] process terminated with ERROR: E_RECOVERABLE_ERROR "Object of class Workerman\Connection\TcpConnection could not be converted to string in /htdoc/thinkphp_5.0.5_full/public/GatewayWorker/Applications/YourApp/start_gateway.php on line 73"
+2019-09-21 23:15:43 pid:9552 worker[testGateway:9555] exit with status 65280
+2019-09-21 23:25:25 pid:9559 Worker[9559] process terminated with ERROR: E_RECOVERABLE_ERROR "Object of class Workerman\Connection\TcpConnection could not be converted to string in /htdoc/thinkphp_5.0.5_full/public/GatewayWorker/Applications/YourApp/start_gateway.php on line 73"
+2019-09-21 23:25:25 pid:9552 worker[testGateway:9559] exit with status 65280
+2019-09-21 23:25:41 pid:9552 Workerman[start.php] stopping ...
+2019-09-21 23:25:41 pid:9552 Workerman[start.php] has been stopped
+2019-09-21 23:25:43 pid:9614 Workerman[start.php] start in DEBUG mode
+2019-09-21 23:25:50 pid:9617 Worker[9617] process terminated with ERROR: E_RECOVERABLE_ERROR "Object of class Workerman\Connection\TcpConnection could not be converted to string in /htdoc/thinkphp_5.0.5_full/public/GatewayWorker/Applications/YourApp/start_gateway.php on line 72"
+2019-09-21 23:25:50 pid:9614 worker[testGateway:9617] exit with status 65280
+2019-09-21 23:27:25 pid:9614 Workerman[start.php] stopping ...
+2019-09-21 23:27:25 pid:9614 Workerman[start.php] has been stopped
+2019-09-21 23:27:33 pid:9628 Workerman[start.php] start in DEBUG mode
+2019-09-21 23:30:23 pid:9628 Workerman[start.php] stopping ...
+2019-09-21 23:30:23 pid:9628 Workerman[start.php] has been stopped
+2019-09-21 23:30:25 pid:9654 Workerman[start.php] start in DEBUG mode
+2019-09-21 23:31:23 pid:9654 Workerman[start.php] stopping ...
+2019-09-21 23:31:23 pid:9654 Workerman[start.php] has been stopped
+2019-09-21 23:31:25 pid:9666 Workerman[start.php] start in DEBUG mode
+2019-09-21 23:41:21 pid:9666 Workerman[start.php] stopping ...
+2019-09-21 23:41:21 pid:9666 Workerman[start.php] has been stopped
+2019-09-21 23:41:36 pid:9726 Workerman[start.php] start in DEBUG mode
+2019-09-21 23:57:45 pid:9726 Workerman[start.php] stopping ...
+2019-09-21 23:57:45 pid:9726 Workerman[start.php] has been stopped
+2019-09-21 23:57:47 pid:9823 Workerman[start.php] start in DEBUG mode
+2019-09-22 00:09:00 pid:9823 Workerman[start.php] stopping ...
+2019-09-22 00:09:00 pid:9823 Workerman[start.php] has been stopped
+2019-09-22 09:33:05 pid:13176 Workerman[start.php] start in DEBUG mode
+2019-09-22 10:05:43 pid:13176 Workerman[start.php] stopping ...
+2019-09-22 10:05:43 pid:13176 Workerman[start.php] has been stopped
+2019-09-27 13:47:29 pid:23828 Workerman[start.php] start in DEBUG mode
+2019-09-27 13:48:37 pid:23828 Workerman[start.php] stopping ...
+2019-09-27 13:48:37 pid:23828 Workerman[start.php] has been stopped

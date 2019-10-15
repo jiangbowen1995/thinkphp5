@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .txtCenter{
+            text-align:center;
+            font-size: 30px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        .mark{
+            text-align: center;
+            margin-top: 30px;
+            font-family: "Arial Black";
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+        .span1{
+            margin-right: 30px;
+        }
+    </style>
+</head>
+<body>
+<div class="txtCenter">{{$Think.config.system_name}}管理系统
+</div>
+<hr>
+<div class="mark">
+    <span class="span1"><a href="/">学生列表</a></span>
+    <span><a href="/users/add">添加学生</a></span>
+</div>
+{block name="content"}
+
+{/block}
+</body>
+</html>

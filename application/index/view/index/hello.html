@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body  onload="IniEvent()">
+	<style type="text/css">
+        table
+        {
+            border-collapse: collapse;
+            margin: 0 auto;
+            text-align: center;
+        }
+        table td, table th
+        {
+            border: 1px solid #cad9ea;
+            color: #666;
+            height: 30px;
+        }
+        table thead th
+        {
+            background-color: #CCE8EB;
+            width: 100px;
+        }
+        table tr:nth-child(odd)
+        {
+            background: #fff;
+        }
+        table tr:nth-child(even)
+        {
+            background: #F5FAFA;
+        }
+    </style>
+    <select id="require" style="width: 250px; height: 30px; margin: 0 auto; ">
+    	{foreach $type as $value}
+    	<option value="{$value[0]}" {$value[0] == $id ? "selected = selected " : ''} >{$value[0]}</option>
+    	{/foreach}
+    </select>
+    <button  onclick="haha()">查询</button>
+	<table width="90%" class="table"  id="tblMain">
+		<tr>
+			<td>关键词</td>
+			<td>型号</td>
+			<td>类型</td>
+		</tr>
+		{foreach $res as $vo} 
+		<tr>
+			<td>{$vo.sb_keyword}</td>
+			<td>{$vo.sb_type}</td>
+			<td>{$vo.type}</td>
+		</tr>
+	{/foreach}
+	</table>
+	 <script type="text/javascript">
+        function IniEvent() {
+            var tbl = document.getElementById("tblMain");
+            var trs = tbl.getElementsByTagName("tr");
+            for (var i = 0; i < trs.length; i++) {
+                trs[i].onclick = TrOnClick;
+            }
+        }
+        function TrOnClick() {
+            var tbl = document.getElementById("tblMain");
+            var trs = tbl.getElementsByTagName("tr");
+            for (var i = 0; i < trs.length; i++) {
+                if (trs[i] == this) {             //判断是不是当前选择的行
+                    trs[i].style.background = "yellow";
+                }
+                else {
+                    trs[i].style.background = "";
+                }
+            }
+        }
+    </script>
+	<script type="text/javascript">
+		function haha(){
+			var myselect = document.getElementById('require');
+			var index=myselect.selectedIndex;
+			var param2 = myselect.options[index].text
+			// var url = 'https://jiangbowen.cn/type/'+param;
+			window.location.href='https://jiangbowen.cn/type/'+param2;
+		}
+	</script>
+
+</body>
+</html>

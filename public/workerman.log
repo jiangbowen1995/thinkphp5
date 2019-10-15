@@ -1,0 +1,261 @@
+2019-09-04 19:16:24 pid:27971 Workerman[1.php] start in DEBUG mode
+2019-09-04 19:29:09 pid:27971 Workerman[1.php] stopping ...
+2019-09-04 19:29:09 pid:27971 Workerman[1.php] has been stopped
+2019-09-05 19:32:19 pid:4023 Workerman[1.php] start in DEBUG mode
+2019-09-05 19:39:27 pid:4023 Workerman[1.php] stopping ...
+2019-09-05 19:39:27 pid:4023 Workerman[1.php] has been stopped
+2019-09-05 19:41:13 pid:4098 Workerman[1.php] start in DEBUG mode
+2019-09-05 19:41:37 pid:4098 Workerman[1.php] stopping ...
+2019-09-05 19:41:37 pid:4098 Workerman[1.php] has been stopped
+2019-09-05 19:42:59 pid:4111 Workerman[1.php] start in DEBUG mode
+2019-09-05 19:43:25 pid:4111 Workerman[1.php] stopping ...
+2019-09-05 19:43:25 pid:4111 Workerman[1.php] has been stopped
+2019-09-05 19:44:46 pid:4123 Workerman[1.php] start in DEBUG mode
+2019-09-05 19:47:33 pid:4123 Workerman[1.php] stopping ...
+2019-09-05 19:47:33 pid:4123 Workerman[1.php] has been stopped
+2019-09-05 19:59:27 pid:4201 Workerman[1.php] start in DEBUG mode
+2019-09-05 20:02:00 pid:4201 Workerman[1.php] stopping ...
+2019-09-05 20:02:00 pid:4201 Workerman[1.php] has been stopped
+2019-09-05 20:02:54 pid:4237 Workerman[1.php] start in DEBUG mode
+2019-09-05 20:03:40 pid:4237 Workerman[1.php] stopping ...
+2019-09-05 20:03:40 pid:4237 Workerman[1.php] has been stopped
+2019-09-05 20:04:38 pid:4250 Workerman[1.php] start in DEBUG mode
+2019-09-05 20:06:20 pid:4250 Workerman[1.php] stopping ...
+2019-09-05 20:06:20 pid:4250 Workerman[1.php] has been stopped
+2019-09-05 20:07:04 pid:4266 Workerman[1.php] start in DEBUG mode
+2019-09-05 20:08:45 pid:4266 Workerman[1.php] stopping ...
+2019-09-05 20:08:45 pid:4266 Workerman[1.php] has been stopped
+2019-09-05 20:09:31 pid:4282 Workerman[1.php] start in DEBUG mode
+2019-09-05 20:15:51 pid:4282 Workerman[1.php] stopping ...
+2019-09-05 20:15:51 pid:4282 Workerman[1.php] has been stopped
+2019-09-05 20:22:47 pid:4357 Workerman[1.php] start in DEBUG mode
+2019-09-05 20:31:04 pid:4357 Workerman[1.php] stopping ...
+2019-09-05 20:31:04 pid:4357 Workerman[1.php] has been stopped
+2019-09-05 20:31:07 pid:4408 Workerman[1.php] start in DEBUG mode
+2019-09-05 20:44:08 pid:4408 Workerman[1.php] stopping ...
+2019-09-05 20:44:08 pid:4408 Workerman[1.php] has been stopped
+2019-09-05 20:45:00 pid:4483 Workerman[1.php] start in DEBUG mode
+2019-09-05 20:46:13 pid:4483 Workerman[1.php] stopping ...
+2019-09-05 20:46:13 pid:4483 Workerman[1.php] has been stopped
+2019-09-06 20:58:08 pid:12861 Workerman[1.php] start in DEBUG mode
+2019-09-06 20:59:20 pid:12861 Workerman[1.php] stopping ...
+2019-09-06 20:59:20 pid:12861 Workerman[1.php] has been stopped
+2019-09-06 21:00:39 pid:12882 Workerman[1.php] start in DEBUG mode
+2019-09-06 21:03:14 pid:12884 Exception: You can't send(array) to client, you need to convert it to a string.  in /htdoc/thinkphp_5.0.5_full/public/Workerman-master/Protocols/Websocket.php:236
+Stack trace:
+#0 /htdoc/thinkphp_5.0.5_full/public/Workerman-master/Connection/TcpConnection.php(344): Workerman\Protocols\Websocket::encode(Array, Object(Workerman\Connection\TcpConnection))
+#1 /htdoc/thinkphp_5.0.5_full/public/1.php(61): Workerman\Connection\TcpConnection->send(Array)
+#2 /htdoc/thinkphp_5.0.5_full/public/1.php(21): sendMessage('uid1', Array)
+#3 /htdoc/thinkphp_5.0.5_full/public/Workerman-master/Connection/TcpConnection.php(658): {closure}(Object(Workerman\Connection\TcpConnection), Array)
+#4 /htdoc/thinkphp_5.0.5_full/public/Workerman-master/Events/Select.php(294): Workerman\Connection\TcpConnection->baseRead(Resource id #27)
+#5 /htdoc/thinkphp_5.0.5_full/public/Workerman-master/Worker.php(2367): Workerman\Events\Select->loop()
+#6 /htdoc/thinkphp_5.0.5_full/public/Workerman-master/Worker.php(1490): Workerman\Worker->run()
+#7 /htdoc/thinkphp_5.0.5_full/public/Workerman-master/Worker.php(1320): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#8 /htdoc/thinkphp_5.0.5_full/public/Workerman-master/Worker.php(1294): Workerman\Worker::forkWorkersForLinux()
+#9 /htdoc/thinkphp_5.0.5_full/public/Workerman-master/Worker.php(509): Workerman\Worker::forkWorkers()
+#10 /htdoc/thinkphp_5.0.5_full/public/1.php(68): Workerman\Worker::runAll()
+#11 {main}
+2019-09-06 21:03:14 pid:12884 Worker[12884] process terminated
+2019-09-06 21:03:14 pid:12882 worker[none:12884] exit with status 64000
+2019-09-06 21:07:36 pid:12882 Workerman[1.php] stopping ...
+2019-09-06 21:07:36 pid:12882 Workerman[1.php] has been stopped
+2019-09-06 21:10:08 pid:12972 Workerman[1.php] start in DEBUG mode
+2019-09-06 21:13:01 pid:12972 Workerman[1.php] stopping ...
+2019-09-06 21:13:01 pid:12972 Workerman[1.php] has been stopped
+2019-09-06 21:13:07 pid:12990 Workerman[1.php] start in DEBUG mode
+2019-09-06 21:15:11 pid:12990 Workerman[1.php] stopping ...
+2019-09-06 21:15:11 pid:12990 Workerman[1.php] has been stopped
+2019-09-06 21:16:41 pid:13010 Workerman[1.php] start in DEBUG mode
+2019-09-06 21:54:30 pid:13010 Workerman[1.php] stopping ...
+2019-09-06 21:54:30 pid:13010 Workerman[1.php] has been stopped
+2019-09-06 21:54:32 pid:13243 Workerman[1.php] start in DEBUG mode
+2019-09-06 21:57:13 pid:13243 Workerman[1.php] stopping ...
+2019-09-06 21:57:13 pid:13243 Workerman[1.php] has been stopped
+2019-09-06 21:57:15 pid:13260 Workerman[1.php] start in DEBUG mode
+2019-09-06 23:36:21 pid:13260 Workerman[1.php] stopping ...
+2019-09-06 23:36:21 pid:13260 Workerman[1.php] has been stopped
+2019-09-07 09:25:51 pid:17227 Workerman[tcp.php] start in DEBUG mode
+2019-09-07 09:28:29 pid:17227 Workerman[tcp.php] stopping ...
+2019-09-07 09:28:29 pid:17227 Workerman[tcp.php] has been stopped
+2019-09-07 09:29:27 pid:17255 Workerman[tcp.php] start in DEBUG mode
+2019-09-07 09:38:03 pid:17255 Workerman[tcp.php] stopping ...
+2019-09-07 09:38:03 pid:17255 Workerman[tcp.php] has been stopped
+2019-09-07 09:38:16 pid:17315 Workerman[tcp.php] start in DEBUG mode
+2019-09-07 09:55:16 pid:17315 Workerman[tcp.php] stopping ...
+2019-09-07 09:55:16 pid:17315 Workerman[tcp.php] has been stopped
+2019-09-07 09:55:18 pid:17452 Workerman[tcp.php] start in DEBUG mode
+2019-09-07 09:58:23 pid:17452 Workerman[tcp.php] stopping ...
+2019-09-07 09:58:23 pid:17452 Workerman[tcp.php] has been stopped
+2019-09-07 09:58:25 pid:17469 Workerman[tcp.php] start in DEBUG mode
+2019-09-07 10:00:04 pid:17469 Workerman[tcp.php] stopping ...
+2019-09-07 10:00:04 pid:17469 Workerman[tcp.php] has been stopped
+2019-09-07 10:05:20 pid:17532 Workerman[tcp.php] start in DEBUG mode
+2019-09-07 10:07:45 pid:17532 Workerman[tcp.php] stopping ...
+2019-09-07 10:07:45 pid:17532 Workerman[tcp.php] has been stopped
+2019-09-07 10:09:21 pid:17566 Workerman[tcp.php] start in DEBUG mode
+2019-09-07 11:09:15 pid:17566 Workerman[tcp.php] stopping ...
+2019-09-07 11:09:15 pid:17566 Workerman[tcp.php] has been stopped
+2019-09-07 11:13:48 pid:17968 Workerman[proxy.php] start in DEBUG mode
+2019-09-07 11:14:05 pid:17968 Workerman[proxy.php] stopping ...
+2019-09-07 11:14:05 pid:17968 Workerman[proxy.php] has been stopped
+2019-09-07 11:14:34 pid:17973 Workerman[proxy.php] start in DEBUG mode
+2019-09-07 11:17:13 pid:17973 Workerman[proxy.php] stopping ...
+2019-09-07 11:17:13 pid:17973 Workerman[proxy.php] has been stopped
+2019-09-07 13:50:03 pid:18918 Workerman[asyncTcp.php] start in DEBUG mode
+2019-09-07 13:50:41 pid:18918 Workerman[asyncTcp.php] stopping ...
+2019-09-07 13:50:41 pid:18918 Workerman[asyncTcp.php] has been stopped
+2019-09-07 13:52:57 pid:18943 Workerman[asyncTcp.php] start in DEBUG mode
+2019-09-07 14:03:28 pid:18943 Workerman[asyncTcp.php] stopping ...
+2019-09-07 14:03:28 pid:18943 Workerman[asyncTcp.php] has been stopped
+2019-09-07 14:05:42 pid:19074 Workerman[ws.php] start in DEBUG mode
+2019-09-07 14:06:28 pid:19081 Workerman[asyncTcp1.php] start in DEBUG mode
+2019-09-07 14:08:48 pid:19081 Workerman[asyncTcp1.php] stopping ...
+2019-09-07 14:08:48 pid:19081 Workerman[asyncTcp1.php] has been stopped
+2019-09-07 14:09:52 pid:19110 Workerman[asyncTcp1.php] start in DEBUG mode
+2019-09-07 14:14:07 pid:19074 Workerman[ws.php] stopping ...
+2019-09-07 14:14:07 pid:19074 Workerman[ws.php] has been stopped
+2019-09-07 14:14:09 pid:19110 Workerman[asyncTcp1.php] stopping ...
+2019-09-07 14:14:09 pid:19110 Workerman[asyncTcp1.php] has been stopped
+2019-09-07 14:22:58 pid:19196 Workerman[proxy2.php] start in DEBUG mode
+2019-09-07 14:30:30 pid:19196 Workerman[proxy2.php] stopping ...
+2019-09-07 14:30:30 pid:19196 Workerman[proxy2.php] has been stopped
+2019-09-07 14:35:34 pid:19277 Workerman[proxy3.php] start in DEBUG mode
+2019-09-07 14:36:43 pid:19288 Workerman[proxy2.php] start in DEBUG mode
+2019-09-07 14:49:50 pid:19288 Workerman[proxy2.php] stopping ...
+2019-09-07 14:49:50 pid:19288 Workerman[proxy2.php] has been stopped
+2019-09-07 14:50:25 pid:19374 Workerman[proxy2.php] start in DEBUG mode
+2019-09-07 14:50:51 pid:19374 Workerman[proxy2.php] stopping ...
+2019-09-07 14:50:51 pid:19374 Workerman[proxy2.php] has been stopped
+2019-09-07 14:50:58 pid:19378 Workerman[proxy2.php] start in DEBUG mode
+2019-09-07 14:54:44 pid:19378 Workerman[proxy2.php] stopping ...
+2019-09-07 14:54:44 pid:19378 Workerman[proxy2.php] has been stopped
+2019-09-07 14:54:46 pid:19277 Workerman[proxy3.php] stopping ...
+2019-09-07 14:54:46 pid:19277 Workerman[proxy3.php] has been stopped
+2019-09-07 15:20:24 pid:19558 Workerman[asyncUdp.php] start in DEBUG mode
+2019-09-07 15:32:24 pid:19558 Workerman[asyncUdp.php] stopping ...
+2019-09-07 15:32:24 pid:19558 Workerman[asyncUdp.php] has been stopped
+2019-09-07 15:36:14 pid:19652 Workerman[timer.php] start in DEBUG mode
+2019-09-07 15:36:41 pid:19652 Workerman[timer.php] stopping ...
+2019-09-07 15:36:41 pid:19652 Workerman[timer.php] has been stopped
+2019-09-07 15:37:58 pid:19663 Workerman[timer.php] start in DEBUG mode
+2019-09-07 17:02:14 pid:19663 Workerman[timer.php] stopping ...
+2019-09-07 17:02:14 pid:19663 Workerman[timer.php] has been stopped
+2019-09-07 21:32:23 pid:21718 Workerman[channels.php] start in DEBUG mode
+2019-09-07 21:33:15 pid:21746 Workerman[channel.php] start in DEBUG mode
+2019-09-07 21:40:18 pid:21718 Workerman[channels.php] stopping ...
+2019-09-07 21:40:18 pid:21718 Workerman[channels.php] has been stopped
+2019-09-07 21:42:13 pid:21746 Workerman[channel.php] stopping ...
+2019-09-07 21:42:13 pid:21746 Workerman[channel.php] has been stopped
+2019-09-07 21:43:03 pid:21824 Workerman[channel.php] start in DEBUG mode
+2019-09-07 21:43:29 pid:21824 Workerman[channel.php] stopping ...
+2019-09-07 21:43:29 pid:21824 Workerman[channel.php] has been stopped
+2019-09-07 21:43:31 pid:21830 Workerman[channel.php] start in DEBUG mode
+2019-09-07 21:43:59 pid:21830 Workerman[channel.php] stopping ...
+2019-09-07 21:43:59 pid:21830 Workerman[channel.php] has been stopped
+2019-09-07 21:44:01 pid:21846 Workerman[channel.php] start in DEBUG mode
+2019-09-07 21:47:32 pid:21846 Workerman[channel.php] stopping ...
+2019-09-07 21:47:32 pid:21846 Workerman[channel.php] has been stopped
+2019-09-07 21:47:34 pid:21878 Workerman[channel.php] start in DEBUG mode
+2019-09-07 21:51:12 pid:21878 Workerman[channel.php] stopping ...
+2019-09-07 21:51:12 pid:21878 Workerman[channel.php] has been stopped
+2019-09-07 21:51:15 pid:21914 Workerman[channel.php] start in DEBUG mode
+2019-09-07 22:05:15 pid:21914 Workerman[channel.php] stopping ...
+2019-09-07 22:05:15 pid:21914 Workerman[channel.php] has been stopped
+2019-09-07 22:05:41 pid:22012 Workerman[channel.php] start in DEBUG mode
+2019-09-07 22:29:39 pid:22012 Workerman[channel.php] stopping ...
+2019-09-07 22:29:39 pid:22012 Workerman[channel.php] has been stopped
+2019-09-08 10:02:17 pid:26169 Workerman[mysql.php] start in DEBUG mode
+2019-09-08 10:14:27 pid:26169 Workerman[mysql.php] stopping ...
+2019-09-08 10:14:27 pid:26169 Workerman[mysql.php] has been stopped
+2019-09-08 10:14:46 pid:26268 Workerman[mysql.php] start in DEBUG mode
+2019-09-08 10:55:22 pid:26268 Workerman[mysql.php] stopping ...
+2019-09-08 10:55:22 pid:26268 Workerman[mysql.php] has been stopped
+2019-09-08 10:56:08 pid:26498 Workerman[header.php] start in DEBUG mode
+2019-09-08 10:59:03 pid:26498 Workerman[header.php] stopping ...
+2019-09-08 10:59:03 pid:26498 Workerman[header.php] has been stopped
+2019-09-08 10:59:39 pid:26526 Workerman[header.php] start in DEBUG mode
+2019-09-08 11:02:02 pid:26526 Workerman[header.php] stopping ...
+2019-09-08 11:02:02 pid:26526 Workerman[header.php] has been stopped
+2019-09-08 11:02:04 pid:26567 Workerman[header.php] start in DEBUG mode
+2019-09-08 15:15:01 pid:28070 Workerman[groupSend.php] start in DEBUG mode
+2019-09-08 15:15:30 pid:28070 Workerman[groupSend.php] stopping ...
+2019-09-08 15:15:30 pid:28070 Workerman[groupSend.php] has been stopped
+2019-09-08 15:16:25 pid:28089 Workerman[groupSend.php] start in DEBUG mode
+2019-09-08 15:18:31 pid:28090 Error: Cannot use object of type stdClass as array in /htdoc/thinkphp_5.0.5_full/public/groupSend.php:42
+Stack trace:
+#0 /htdoc/thinkphp_5.0.5_full/public/Workerman-master/Connection/TcpConnection.php(658): {closure}(Object(Workerman\Connection\TcpConnection), Object(stdClass))
+#1 /htdoc/thinkphp_5.0.5_full/public/Workerman-master/Events/Select.php(294): Workerman\Connection\TcpConnection->baseRead(Resource id #30)
+#2 /htdoc/thinkphp_5.0.5_full/public/Workerman-master/Worker.php(2367): Workerman\Events\Select->loop()
+#3 /htdoc/thinkphp_5.0.5_full/public/Workerman-master/Worker.php(1490): Workerman\Worker->run()
+#4 /htdoc/thinkphp_5.0.5_full/public/Workerman-master/Worker.php(1320): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#5 /htdoc/thinkphp_5.0.5_full/public/Workerman-master/Worker.php(1294): Workerman\Worker::forkWorkersForLinux()
+#6 /htdoc/thinkphp_5.0.5_full/public/Workerman-master/Worker.php(509): Workerman\Worker::forkWorkers()
+#7 /htdoc/thinkphp_5.0.5_full/public/groupSend.php(79): Workerman\Worker::runAll()
+#8 {main}
+2019-09-08 15:18:31 pid:28090 Worker[28090] process terminated
+2019-09-08 15:18:32 pid:28089 worker[none:28090] exit with status 64000
+2019-09-08 15:18:44 pid:28104 Error: Cannot use object of type stdClass as array in /htdoc/thinkphp_5.0.5_full/public/groupSend.php:42
+Stack trace:
+#0 /htdoc/thinkphp_5.0.5_full/public/Workerman-master/Connection/TcpConnection.php(658): {closure}(Object(Workerman\Connection\TcpConnection), Object(stdClass))
+#1 /htdoc/thinkphp_5.0.5_full/public/Workerman-master/Events/Select.php(294): Workerman\Connection\TcpConnection->baseRead(Resource id #30)
+#2 /htdoc/thinkphp_5.0.5_full/public/Workerman-master/Worker.php(2367): Workerman\Events\Select->loop()
+#3 /htdoc/thinkphp_5.0.5_full/public/Workerman-master/Worker.php(1490): Workerman\Worker->run()
+#4 /htdoc/thinkphp_5.0.5_full/public/Workerman-master/Worker.php(1320): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#5 /htdoc/thinkphp_5.0.5_full/public/Workerman-master/Worker.php(1294): Workerman\Worker::forkWorkersForLinux()
+#6 /htdoc/thinkphp_5.0.5_full/public/Workerman-master/Worker.php(1624): Workerman\Worker::forkWorkers()
+#7 /htdoc/thinkphp_5.0.5_full/public/Workerman-master/Worker.php(1573): Workerman\Worker::monitorWorkersForLinux()
+#8 /htdoc/thinkphp_5.0.5_full/public/Workerman-master/Worker.php(511): Workerman\Worker::monitorWorkers()
+#9 /htdoc/thinkphp_5.0.5_full/public/groupSend.php(79): Workerman\Worker::runAll()
+#10 {main}
+2019-09-08 15:18:44 pid:28104 Worker[28104] process terminated
+2019-09-08 15:18:44 pid:28089 worker[none:28104] exit with status 64000
+2019-09-08 15:18:48 pid:28105 Error: Cannot use object of type stdClass as array in /htdoc/thinkphp_5.0.5_full/public/groupSend.php:42
+Stack trace:
+#0 /htdoc/thinkphp_5.0.5_full/public/Workerman-master/Connection/TcpConnection.php(658): {closure}(Object(Workerman\Connection\TcpConnection), Object(stdClass))
+#1 /htdoc/thinkphp_5.0.5_full/public/Workerman-master/Events/Select.php(294): Workerman\Connection\TcpConnection->baseRead(Resource id #31)
+#2 /htdoc/thinkphp_5.0.5_full/public/Workerman-master/Worker.php(2367): Workerman\Events\Select->loop()
+#3 /htdoc/thinkphp_5.0.5_full/public/Workerman-master/Worker.php(1490): Workerman\Worker->run()
+#4 /htdoc/thinkphp_5.0.5_full/public/Workerman-master/Worker.php(1320): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#5 /htdoc/thinkphp_5.0.5_full/public/Workerman-master/Worker.php(1294): Workerman\Worker::forkWorkersForLinux()
+#6 /htdoc/thinkphp_5.0.5_full/public/Workerman-master/Worker.php(1624): Workerman\Worker::forkWorkers()
+#7 /htdoc/thinkphp_5.0.5_full/public/Workerman-master/Worker.php(1573): Workerman\Worker::monitorWorkersForLinux()
+#8 /htdoc/thinkphp_5.0.5_full/public/Workerman-master/Worker.php(511): Workerman\Worker::monitorWorkers()
+#9 /htdoc/thinkphp_5.0.5_full/public/groupSend.php(79): Workerman\Worker::runAll()
+#10 {main}
+2019-09-08 15:18:48 pid:28105 Worker[28105] process terminated
+2019-09-08 15:18:48 pid:28089 worker[none:28105] exit with status 64000
+2019-09-08 15:23:30 pid:28089 Workerman[groupSend.php] stopping ...
+2019-09-08 15:23:30 pid:28089 Workerman[groupSend.php] has been stopped
+2019-09-08 15:23:31 pid:28145 Workerman[groupSend.php] start in DEBUG mode
+2019-09-08 15:26:58 pid:28145 Workerman[groupSend.php] stopping ...
+2019-09-08 15:26:58 pid:28145 Workerman[groupSend.php] has been stopped
+2019-09-08 15:26:59 pid:28188 Workerman[groupSend.php] start in DEBUG mode
+2019-09-08 15:27:55 pid:28188 Workerman[groupSend.php] stopping ...
+2019-09-08 15:27:55 pid:28188 Workerman[groupSend.php] has been stopped
+2019-09-08 15:27:57 pid:28197 Workerman[groupSend.php] start in DEBUG mode
+2019-09-08 15:29:10 pid:28197 Workerman[groupSend.php] stopping ...
+2019-09-08 15:29:10 pid:28197 Workerman[groupSend.php] has been stopped
+2019-09-08 15:29:13 pid:28209 Workerman[groupSend.php] start in DEBUG mode
+2019-09-08 15:31:08 pid:28209 Workerman[groupSend.php] stopping ...
+2019-09-08 15:31:08 pid:28209 Workerman[groupSend.php] has been stopped
+2019-09-08 15:31:12 pid:28230 Workerman[groupSend.php] start in DEBUG mode
+2019-09-08 15:33:43 pid:28230 Workerman[groupSend.php] stopping ...
+2019-09-08 15:33:43 pid:28230 Workerman[groupSend.php] has been stopped
+2019-09-08 15:33:44 pid:28247 Workerman[groupSend.php] start in DEBUG mode
+2019-09-08 15:34:46 pid:28247 Workerman[groupSend.php] stopping ...
+2019-09-08 15:34:46 pid:28247 Workerman[groupSend.php] has been stopped
+2019-09-08 15:34:48 pid:28256 Workerman[groupSend.php] start in DEBUG mode
+2019-09-08 15:39:06 pid:28256 Workerman[groupSend.php] stopping ...
+2019-09-08 15:39:06 pid:28256 Workerman[groupSend.php] has been stopped
+2019-09-08 15:39:07 pid:28283 Workerman[groupSend.php] start in DEBUG mode
+2019-09-08 15:43:53 pid:28283 Workerman[groupSend.php] stopping ...
+2019-09-08 15:43:53 pid:28283 Workerman[groupSend.php] has been stopped
+2019-09-08 15:56:14 pid:28379 Workerman[groupSend.php] start in DEBUG mode
+2019-09-08 15:56:57 pid:28379 Workerman[groupSend.php] stopping ...
+2019-09-08 15:56:57 pid:28379 Workerman[groupSend.php] has been stopped
+2019-09-08 17:38:51 pid:28971 Workerman[1.php] start in DEBUG mode
+2019-09-08 17:41:43 pid:28971 Workerman[1.php] stopping ...
+2019-09-08 17:41:43 pid:28971 Workerman[1.php] has been stopped
+2019-09-21 17:21:09 pid:7426 Workerman[tcp.php] start in DEBUG mode
+2019-09-21 17:27:32 pid:7426 Workerman[tcp.php] stopping ...
+2019-09-21 17:27:32 pid:7426 Workerman[tcp.php] has been stopped

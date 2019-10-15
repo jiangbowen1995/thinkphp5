@@ -1,0 +1,77 @@
+{extend name="home/layout/layout" /}
+{block name="content"}
+
+<style type="text/css">
+    table
+    {
+        border-collapse: collapse;
+        margin: 0 auto;
+        text-align: center;
+    }
+    table td, table th
+    {
+        border: 1px solid #cad9ea;
+        color: #666;
+        height: 30px;
+    }
+    table thead th
+    {
+        background-color: #CCE8EB;
+        width: 100px;
+    }
+    table tr:nth-child(odd)
+    {
+        background: #fff;
+    }
+    table tr:nth-child(even)
+    {
+        background: #F5FAFA;
+    }
+    .search{
+        margin-left:1175px;
+
+    }
+    .form{
+        border-radius: 5px;
+    }
+    .form1{
+        text-align: right;
+    }
+</style>
+<span class="form1">
+    <form action="/" method="get" >
+        <select name="count" id="">
+            <option value="10" {eq name="$count" value="10"} selected {/eq}>每页显示10条</option>
+            <option value="30" {eq name="$count" value="30"} selected {/eq}>每页显示30条</option>
+            <option value="50" {eq name="$count" value="50"} selected {/eq}>每页显示50条</option>
+        </select>
+        <input type="text" name="search" value="{{$search}}" class="form">
+        <input type="submit" value="查询" class="form">
+    </form>
+</span>
+
+<table width="90%" class="table">
+    <thead>
+    <tr>
+        <td>id</td>
+        <td>姓名</td>
+        <td>年龄</td>
+        <td>性别</td>
+        <td>头像</td>
+        <td>操作</td>
+    </tr>
+    </thead>
+    {volist name="res" id="vo"}
+    <tr>
+        <td>{{$vo['id']}}</td>
+        <td>{{$vo['name']}}</td>
+        <td>{{$vo['age']}}</td>
+        <td>{{$vo['sex']}}</td>
+        <td><img src={{$vo['pic']}}></td>
+        <td><a href="/users/edit/{{$vo['id']}}">编辑</a>|<a href="/users/delete/{{$vo['id']}}">删除</a></td>
+    </tr>
+    {/volist}
+
+</table>
+{{$res->render()}}
+{/block}
